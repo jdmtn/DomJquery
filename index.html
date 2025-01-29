@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulación del DOM con jQuery</title>
+    <!-- Incluir jQuery con CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Manipulación DOM con jQuery</h1>
+        <h2>Elementos a Manipular</h2>
+    </header>
+
+    <main>
+        <section>
+            
+            <div class="box">Esto es un Div.</div>
+            <div class="box">Esto es otro Div.</div>
+
+            <p class="text">Esto es un párrafo.</p>
+            <p class="text">Esto es otro párrafo.</p>
+
+            <ul id="item-list">
+                <li>Elemento 1</li>
+                <li>Elemento 2</li>
+                <li>Elemento 3</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Agregar elemento a la lista</h2>
+            <form id="sample-form">
+                <label for="input-text">Escriba texto:</label>
+                <input type="text" id="input-text" placeholder="Escribe algo...">
+                <button type="button" id="agg-elemento">Agregar elemento</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Acciones</h2>
+            <button id="resaltar-parrafos">Resaltar Párafos</button>
+            <button id="agg-bordes">Agregar Bordes a los Divs</button>
+            <button id="borrar-elemento">Borrar Último Elemento</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
